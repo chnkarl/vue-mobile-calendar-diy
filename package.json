@@ -8,9 +8,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "vue-mobile-calendar",
-    "name": "vue-mobile-calendar",
-    "escapedName": "vue-mobile-calendar",
+    "raw": "vue-mobile-calendar-diy",
+    "name": "vue-mobile-calendar-diy",
+    "escapedName": "vue-mobile-calendar-diy",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -31,7 +31,7 @@
     "vue": "^2.5.22"
   },
   "deprecated": false,
-  "description": "diy vue-mobile-calendar",
+  "description": "diy vue-mobile-calendar-diy",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-plugin-eslint": "^3.4.0",
@@ -65,5 +65,5 @@
     "dev": "vue-cli-service serve",
     "lint": "vue-cli-service lint"
   },
-  "version": "1.0.0"
+  "version": "1.0.3"
 }

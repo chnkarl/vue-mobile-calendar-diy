@@ -1,6 +1,6 @@
 function getPublicPath() {
   if (process.env.NODE_ENV === 'production') {
-    return 'https://lx544690189.github.io/vue-mobile-calendar/';
+    return 'https://github.com/chnkarl/vue-mobile-calendar-diy/';
   } else {
     return '/';
   }
