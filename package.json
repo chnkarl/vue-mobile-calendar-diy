@@ -1,0 +1,11 @@
+{
+  "name": "vue-mob-calendar-diy",
+  "version": "1.0.0",
+  "description": "本项目是在 vue-mob-calendar 基础上， 经过个性化处理，更好负责自己项目。欢迎大家使用原版项目。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karl",
+  "license": "ISC"
+}
