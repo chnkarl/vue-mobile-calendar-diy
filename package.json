@@ -1,11 +1,69 @@
 {
-  "name": "vue-mob-calendar-diy",
-  "version": "1.0.0",
-  "description": "本项目是在 vue-mob-calendar 基础上， 经过个性化处理，更好负责自己项目。欢迎大家使用原版项目。",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "vue-mobile-calendar-diy",
+  "_id": "vue-mobile-calendar-diy@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-61lV8sDxEUKonR8gF8IXuW6O9D8KuGllC+o7PFvaaHRrqXTZGLt1AE5Z5YNkA6e8/oJH9lL7GFNmmH80iip9Rg==",
+  "_location": "/vue-mobile-calendar-diy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-mobile-calendar",
+    "name": "vue-mobile-calendar",
+    "escapedName": "vue-mobile-calendar",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "author": "karl",
-  "license": "ISC"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "author": {
+    "name": "chnkarl"
+  },
+  "bugs": {
+    "url": "https://github.com/chnkarl/vue-mobile-calendar-diy/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "dayjs": "^1.8.10",
+    "vue": "^2.5.22"
+  },
+  "deprecated": false,
+  "description": "diy vue-mobile-calendar",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "register-service-worker": "^1.5.2",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "homepage": "https://github.com/chnkarl",
+  "keywords": [
+    "calendar",
+    "vue"
+  ],
+  "license": "MIT",
+  "main": "dist/Calendar.umd.min.js",
+  "name": "vue-mobile-calendar-diy",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chnkarl/vue-mobile-calendar-diy.git"
+  },
+  "scripts": {
+    "build-docs": "vue-cli-service build --dest docs",
+    "build-lib": "vue-cli-service build --target lib --name Calendar --dest dist lib/install.js",
+    "dev": "vue-cli-service serve",
+    "lint": "vue-cli-service lint"
+  },
+  "version": "1.0.0"
 }
